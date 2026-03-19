@@ -7,8 +7,6 @@ import {
   Box,
   Container,
 } from "@mui/material";
-
-// Import some fitting icons for your app
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import CodeIcon from "@mui/icons-material/Code";
 import AccountTreeIcon from "@mui/icons-material/AccountTree";
@@ -42,7 +40,7 @@ function App() {
             showLabels
             value={activeTab}
             onChange={(_event, newValue) => {
-              navigate(newValue); // Navigate to the new route
+              navigate(newValue);
             }}
           >
             <BottomNavigationAction
